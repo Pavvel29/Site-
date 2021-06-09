@@ -1,0 +1,35 @@
+@media (max-width: 1616px){
+	.statistic{
+		width: 1170px;
+		padding: 0;
+		margin: 0 auto;
+		
+	}
+	
+}
+
+@media (max-width: 1237px){
+	.statistic{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.statistic-nambers-text{
+        padding: 0 10px 0 0;
+        
+	}
+}
+@media (max-width: 873px){
+	.statistic-nambers-text{
+		width: 50%;
+	}
+}
+@media (max-width: 611px){
+	.statistic-nambers{
+        display: block;
+	}
+	.statistic-nambers-text{
+		width: 100%;
+	}
+}
+
+

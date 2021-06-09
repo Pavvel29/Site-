@@ -1,0 +1,88 @@
+@media (max-width: 1616px){
+    .start-page{	
+	padding: 13px 0 14px 0;
+	justify-content: center;
+  }
+    .block-text{
+    width: 415px;    
+  }
+}
+
+@media (max-width: 1200px){
+	.start-page{	
+	flex-wrap: wrap;
+	padding: 15px 15px 10px 15px;
+  }
+  .block-text{
+   width:751px;
+   height: 50%;  /* Проблемы в интернет эксплоуере*/
+   padding: 80px 0;   
+  }
+  .block-text__hedliner{
+	width:80%;
+	
+}
+.block-text__abzac{
+	width:80%;
+    
+}
+.block-text__button-big{
+	width: 100%;
+
+}
+  .top-slider{
+	width:751px;
+	height:562px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 797px){
+   .top-slider{
+	width:290px;
+	height:562px;
+	background-image: url(../img/mob-slide.png);
+    background-repeat: no-repeat;
+  }
+  .top-slider__block-items{
+	width: 100%;
+	height: 46px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 30px;
+}
+   .top-slider__items{
+	width: 50px;
+	height: 7px;
+   }
+   .block-text{
+	width:300px;
+	padding-right: 10px;	  
+  }
+   .block-text__hedliner{
+    width:100%;	
+    font-size:29px;
+    font-weight:900;
+    line-height:30px;   
+}
+.block-text__abzac{
+	width:100%;
+    font-size:13px;
+}
+.block-text__button-big .button-big{
+	width: 100%;
+}
+.start-page{	
+	justify-content: space-between;
+  }
+
+
+}
+
+
+
+@media (max-width: 638px){
+.start-page{
+     justify-content: center;
+  }
+}
